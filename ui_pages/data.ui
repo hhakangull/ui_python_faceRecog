@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>703</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Ad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Soyad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Durum</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kurum</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kimlik</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Alan1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btnDownload">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>3</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../resimler/indir.png</normaloff>../resimler/indir.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

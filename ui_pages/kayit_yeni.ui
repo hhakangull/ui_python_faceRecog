@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KayitMainWindow</class>
+ <widget class="QWidget" name="KayitMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>760</width>
+     <height>550</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>310</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Adı :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTamam">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>510</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tamam</string>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>760</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(136, 138, 133);</string>
+    </property>
+    <property name="text">
+     <string>Kamera</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>430</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Kurum :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnFotoCek">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>350</y>
+      <width>161</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kamerayı Aç</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>310</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Cam1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cam2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cam3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cam4</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>350</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Soyadı :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnKayitAl">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>390</y>
+      <width>161</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fotoğraf Çek</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>310</y>
+      <width>161</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Fotoğraf Sayısı Giriniz</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtAd">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Ad</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtSoyad">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>350</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Soyad</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>470</y>
+      <width>71</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Durum :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kontrol">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>310</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>False</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnFotoCek2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>430</y>
+      <width>161</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Foto Çek 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>500</y>
+      <width>230</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Çekilen Fotoğraf Sayısı :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSayac">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>500</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>390</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Kimlik :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtKimlik">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>390</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>TC Kimlik</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>430</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ATV</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ziyaretçi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dış Personel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Taşeron</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>470</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>İzinli</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İzinsiz</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>txtAd</tabstop>
+  <tabstop>txtSoyad</tabstop>
+  <tabstop>btnTamam</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>btnFotoCek</tabstop>
+  <tabstop>btnKayitAl</tabstop>
+  <tabstop>comboBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
